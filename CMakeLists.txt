@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
 FILE(GLOB Eigen_plugins_SRCS "*.h")
 
 INSTALL(FILES
