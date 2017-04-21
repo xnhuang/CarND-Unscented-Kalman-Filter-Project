@@ -19,11 +19,8 @@ public:
     * A helper method to calculate RMSE.
     */
     Eigen::VectorXd CalculateRMSE(const std::vector<Eigen::VectorXd> &estimations, const std::vector<Eigen::VectorXd> &ground_truth);
-    /**
-     * helper method to convert coordinate of radar
-     */
-    Eigen::VectorXd Polar2Cartesian(const VectorXd& polar);
-    Eigen::VectorXd Cartesian2Polar(const VectorXd& cartesian);
+
+    double normalize_angle(double angle);
 };
 
 #endif /* TOOLS_H_ */

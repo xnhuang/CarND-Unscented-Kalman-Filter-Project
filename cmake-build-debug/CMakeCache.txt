@@ -131,7 +131,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-r
 CMAKE_OBJDUMP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=UnscentedKF
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-6.3.0-posix-dwarf-rt_v5-rev1/mingw32/bin/ranlib.exe
@@ -203,6 +203,12 @@ Project_BINARY_DIR:STATIC=D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Proj
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project
 
+//Value Computed by CMake
+UnscentedKF_BINARY_DIR:STATIC=D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug
+
+//Value Computed by CMake
+UnscentedKF_SOURCE_DIR:STATIC=D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project
+
 
 ########################
 # INTERNAL cache entries
@@ -254,6 +260,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_STANDARD_LIBRARIES
 CMAKE_C_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=C:/Program Files/CMake/bin/cmake-gui.exe
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -307,6 +315,8 @@ CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
 CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
+//Platform information initialized
+CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RANLIB
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

@@ -1,6 +1,6 @@
 #include <iostream>
 #include "tools.h"
-
+#include <math.h>
 using Eigen::VectorXd;
 using Eigen::MatrixXd;
 using std::vector;
@@ -11,8 +11,8 @@ Tools::~Tools() {}
 
 VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
                               const vector<VectorXd> &ground_truth) {
-    VectorXd rmse(4);
-    rmse << 0,0,0,0;
+    VectorXd rmse(estimations[0].size());
+    rmse.fill(0.0);
 
     if (estimations.size()==0){
         std::cout << "estimation size 0" << std::endl;
@@ -37,20 +37,12 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
     return rmse;
 }
 
-VectorXd Tools::Polar2Cartesian(const VectorXd& polar) {
-    double rho = polar(0);
-    double phi = polar(1);
-    double rho_dot = polar(2);
-    VectorXd cartesian = VectorXd(4);
-    cartesian << rho*cos(phi), rho*sin(phi), 0, 0;
-    return cartesian;
-}
-
-VectorXd Tools::Cartesian2Polar(const VectorXd& cartesian) {
-    double rho2 = pow(cartesian(0),2)+pow(cartesian(1),2);
-    double phi = atan2(cartesian(1),cartesian(0));
-    double rho_dot = cos(phi)*cartesian(2)+sin(phi)*cartesian(3);
-    VectorXd polar = VectorXd(3);
-    polar << sqrt(rho2), phi, rho_dot;
-    return polar;
+double Tools::normalize_angle(double angle) {
+    if (angle > M_PI){
+        angle = fmod((angle - M_PI),(2*M_PI)) - M_PI;
+    }
+    if (angle < -M_PI){
+        angle = fmod((angle + M_PI),(2*M_PI)) + M_PI;
+    }
+    return angle;
 }

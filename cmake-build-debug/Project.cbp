@@ -17,11 +17,11 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
+			<Target title="edit_cache">
 				<Option working_dir="D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -32,16 +32,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -72,6 +62,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/Xianan/UdacityAV/CarND-Unscented-Kalman-Filter-Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>

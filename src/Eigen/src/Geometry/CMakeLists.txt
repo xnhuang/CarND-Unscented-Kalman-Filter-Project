@@ -1,6 +1,8 @@
-FILE(GLOB Eigen_Geometry_arch_SRCS "*.h")
+FILE(GLOB Eigen_Geometry_SRCS "*.h")
 
 INSTALL(FILES
-  ${Eigen_Geometry_arch_SRCS}
-  DESTINATION ${INCLUDE_INSTALL_DIR}/Eigen/src/Geometry/arch COMPONENT Devel
+  ${Eigen_Geometry_SRCS}
+  DESTINATION ${INCLUDE_INSTALL_DIR}/Eigen/src/Geometry COMPONENT Devel
   )
+
+ADD_SUBDIRECTORY(arch)
